@@ -1,0 +1,25 @@
+﻿  Unhooking.c
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(42,1): warning C4005: 'PAGE_EXECUTE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12998): message : see previous definition of 'PAGE_EXECUTE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(43,1): warning C4005: 'PAGE_EXECUTE_READ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12999): message : see previous definition of 'PAGE_EXECUTE_READ'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(44,1): warning C4005: 'PAGE_EXECUTE_READWRITE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13000): message : see previous definition of 'PAGE_EXECUTE_READWRITE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(45,1): warning C4005: 'PAGE_EXECUTE_WRITECOPY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13001): message : see previous definition of 'PAGE_EXECUTE_WRITECOPY'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(46,1): warning C4005: 'PAGE_NOACCESS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12994): message : see previous definition of 'PAGE_NOACCESS'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(47,1): warning C4005: 'PAGE_READONLY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12995): message : see previous definition of 'PAGE_READONLY'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(48,1): warning C4005: 'PAGE_READWRITE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12996): message : see previous definition of 'PAGE_READWRITE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(49,1): warning C4005: 'PAGE_WRITECOPY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12997): message : see previous definition of 'PAGE_WRITECOPY'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(50,1): warning C4005: 'PAGE_GUARD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13002): message : see previous definition of 'PAGE_GUARD'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(51,1): warning C4005: 'PAGE_NOCACHE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13003): message : see previous definition of 'PAGE_NOCACHE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(52,1): warning C4005: 'PAGE_WRITECOMBINE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13004): message : see previous definition of 'PAGE_WRITECOMBINE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\Unhooking.c(108,9): warning C4013: 'printf' undefined; assuming extern returning int
+  ModuleStomping.vcxproj -> C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\x64\Debug\BreadManModuleStomping.exe
