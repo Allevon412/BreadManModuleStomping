@@ -88,8 +88,6 @@ extern HellDescent();
 
 
 typedef BOOL(WINAPI* VirtualProtect_t)(LPVOID, SIZE_T, DWORD, PDWORD);
-typedef HANDLE(WINAPI* CreateFileMappingA_t)(HANDLE, LPSECURITY_ATTRIBUTES, DWORD, DWORD, DWORD, LPCSTR);
-typedef LPVOID(WINAPI* MapViewOfFile_t)(HANDLE, DWORD, DWORD, DWORD, SIZE_T);
 typedef BOOL(WINAPI* UnmapViewOfFile_t)(LPCVOID);
 
 //ntdef.h

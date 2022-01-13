@@ -21,9 +21,75 @@ C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\Mo
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13003): message : see previous definition of 'PAGE_NOCACHE'
 C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(52,1): warning C4005: 'PAGE_WRITECOMBINE': macro redefinition
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13004): message : see previous definition of 'PAGE_WRITECOMBINE'
+  dll_parsing.c
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(42,1): warning C4005: 'PAGE_EXECUTE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12998): message : see previous definition of 'PAGE_EXECUTE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(43,1): warning C4005: 'PAGE_EXECUTE_READ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12999): message : see previous definition of 'PAGE_EXECUTE_READ'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(44,1): warning C4005: 'PAGE_EXECUTE_READWRITE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13000): message : see previous definition of 'PAGE_EXECUTE_READWRITE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(45,1): warning C4005: 'PAGE_EXECUTE_WRITECOPY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13001): message : see previous definition of 'PAGE_EXECUTE_WRITECOPY'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(46,1): warning C4005: 'PAGE_NOACCESS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12994): message : see previous definition of 'PAGE_NOACCESS'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(47,1): warning C4005: 'PAGE_READONLY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12995): message : see previous definition of 'PAGE_READONLY'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(48,1): warning C4005: 'PAGE_READWRITE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12996): message : see previous definition of 'PAGE_READWRITE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(49,1): warning C4005: 'PAGE_WRITECOPY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12997): message : see previous definition of 'PAGE_WRITECOPY'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(50,1): warning C4005: 'PAGE_GUARD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13002): message : see previous definition of 'PAGE_GUARD'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(51,1): warning C4005: 'PAGE_NOCACHE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13003): message : see previous definition of 'PAGE_NOCACHE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(52,1): warning C4005: 'PAGE_WRITECOMBINE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13004): message : see previous definition of 'PAGE_WRITECOMBINE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\dll_parsing.c(133,1): warning C4090: 'initializing': different 'const' qualifiers
+  main.c
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(42,1): warning C4005: 'PAGE_EXECUTE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12998): message : see previous definition of 'PAGE_EXECUTE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(43,1): warning C4005: 'PAGE_EXECUTE_READ': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12999): message : see previous definition of 'PAGE_EXECUTE_READ'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(44,1): warning C4005: 'PAGE_EXECUTE_READWRITE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13000): message : see previous definition of 'PAGE_EXECUTE_READWRITE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(45,1): warning C4005: 'PAGE_EXECUTE_WRITECOPY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13001): message : see previous definition of 'PAGE_EXECUTE_WRITECOPY'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(46,1): warning C4005: 'PAGE_NOACCESS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12994): message : see previous definition of 'PAGE_NOACCESS'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(47,1): warning C4005: 'PAGE_READONLY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12995): message : see previous definition of 'PAGE_READONLY'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(48,1): warning C4005: 'PAGE_READWRITE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12996): message : see previous definition of 'PAGE_READWRITE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(49,1): warning C4005: 'PAGE_WRITECOPY': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(12997): message : see previous definition of 'PAGE_WRITECOPY'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(50,1): warning C4005: 'PAGE_GUARD': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13002): message : see previous definition of 'PAGE_GUARD'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(51,1): warning C4005: 'PAGE_NOCACHE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13003): message : see previous definition of 'PAGE_NOCACHE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\definitions.h(52,1): warning C4005: 'PAGE_WRITECOMBINE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(13004): message : see previous definition of 'PAGE_WRITECOMBINE'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(84,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(86,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(88,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(90,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(92,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(94,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(96,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(98,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(100,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(102,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(104,12): warning C4098: 'PopulateVxTable': 'void' function returning a value
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(157,46): warning C4013: 'QueryMemoryProtections' undefined; assuming extern returning int
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(168,13): warning C4244: '+=': conversion from 'DWORD64' to 'DWORD', possible loss of data
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(177,84): warning C4142: 'QueryMemoryProtections': benign redefinition of type
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(247,1): warning C4047: 'initializing': 'SIZE_T' differs in levels of indirection from 'void *'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(285,12): warning C4047: 'return': 'PPEB' differs in levels of indirection from 'int'
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(294,33): warning C4244: 'function': conversion from 'SIZE_T' to 'unsigned int', possible loss of data
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(301,69): warning C4244: 'function': conversion from 'SIZE_T' to 'int', possible loss of data
+C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\ModuleStomping\main.c(338,23): warning C4013: 'UnhookingMainFunction' undefined; assuming extern returning int
   Generating code
   Finished generating code
-  5 of 20 functions (25.0%) were compiled, the rest were copied from previous compilation.
-    3 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  3 of 17 functions (17.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   ModuleStomping.vcxproj -> C:\sektor7\Win_Evasion\WEv\02.Non-Admin\03.ModuleStomp\BreadManModuleStomping\x64\Release\BreadManModuleStomping.exe

